@@ -1,4 +1,4 @@
-{% set version = "1.8.6" %}
+{% set version = "1.9.2" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/rlas_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/rlas/rlas_{{ version }}.tar.gz
-  sha256: 5dfac7e0943580987036c737383ed2ad4cb915557d4b3e9bc26156946307eff5
+  sha256: 3544b5b8aa3708124aa67583206e8615e91fcb049bd03a51201164d1093545a6
 
 build:
   script: R CMD INSTALL --build .
