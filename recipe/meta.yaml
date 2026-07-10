@@ -47,6 +47,7 @@ requirements:
     - r-data.table
     - r-rcpp
     - libgdal-core-devel
+    - libgdal
     - proj
     - geos
   run:
